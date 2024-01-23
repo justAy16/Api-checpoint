@@ -30,7 +30,7 @@ function UserList() {
 
     </tr>
   </thead>
-  <tbody className='bg-slate-500 border-solid'>
+  <tbody className='bg-slate-500 border-solid text-slate-950'>
     {
         listOfUser?.map((user)=> (
 <tr key={user.id}>
